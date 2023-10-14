@@ -25,6 +25,13 @@ Follow these steps to get started with the Secure Password Manager:
 3. Run the application.
 4. Register or log in to start managing your passwords securely.
 
+![image](https://github.com/KenCuevas/PassShield/assets/50937209/10bcacb9-c88f-43dc-ae40-abdb699dd242)
+
+![image](https://github.com/KenCuevas/PassShield/assets/50937209/ec5c509c-20a2-41e6-95b9-d4e11f5bfde1)
+
+![image](https://github.com/KenCuevas/PassShield/assets/50937209/1669aaa7-99db-4e4a-bd91-c703ac718dcb)
+
+
 ## License
 
 This project is licensed under the Mozilla Public License Version 2.0 - see the [LICENSE](LICENSE)
