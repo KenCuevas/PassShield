@@ -1,0 +1,45 @@
+/* Estilo para el fondo del formulario */
+.loginForm {
+    -fx-background-color: #000; /* Fondo negro */
+}
+
+/* Estilo para el contenedor de los campos de entrada */
+.inputContainer {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+/* Estilo para campos de entrada de texto */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}
+
+/* Estilo para botones de inicio de sesión y registro */
+.button {
+    -fx-font-size: 14px;
+    -fx-min-width: 100px;
+}
+
+.line-button {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-text-fill: #0072cc; /* Color del texto */
+    -fx-font-size: 14px;
+    -fx-padding: 5 10 5 10; /* Espacio alrededor del texto (arriba, derecha, abajo, izquierda) */
+    -fx-border-color: white; /* Borde inferior blanco al pasar el mouse sobre el botón */
+    -fx-border-width: 0 0 2 0; /* Grosor de la línea inferior */
+}
+.curved-button {
+    -fx-background-color: #ffffff; /* Color de fondo del botón */
+    -fx-text-fill: #000000; /* Color del texto del botón */
+    -fx-font-size: 14px; /* Tamaño del texto del botón */
+    -fx-background-radius: 5px; /* Radio de curvatura de 5px para el fondo del botón */
+    -fx-padding: 5 10 5 10; /* Espacio alrededor del texto (arriba, derecha, abajo, izquierda) */
+}
+.no-have-account {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-border-color: transparent; /* Borde transparente */
+    -fx-font-size: 14px;
+    -fx-padding: 5 10 5 10; /* Espacio alrededor del texto (arriba, derecha, abajo, izquierda) */
+}

@@ -1,0 +1,32 @@
+.button-as-text {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+}
+
+.gradient-background{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #000000, #282727);
+}
+.linear-color {
+     -fx-background-color: #ffffff;
+}
+
+.container{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #3333, #282727);
+    -fx-background-radius: 10;
+}
+.selected-button-container{
+    -fx-background-color: rgba(0,0,0,0.15);
+}
+.button-container-mouse-moved:hover{
+    -fx-text-fill: #e50000;
+    -fx-background-color: rgb(59, 59, 59);
+}
+
+.text-black {
+    -fx-text-fill: #ffffff; /* Color negro (#000000) */
+}

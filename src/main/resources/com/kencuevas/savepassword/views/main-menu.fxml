@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="890.0" prefWidth="1315.0" styleClass="gradient-background" stylesheets="@../css/mainMenu.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kencuevas.savepassword.controller.MainMenuController">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="61.0" prefWidth="200.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="263.0" text="PassShield" textFill="WHITE">
+               <font>
+                  <Font name="Calisto MT" size="34.0" />
+               </font>
+            </Label>
+            <Pane maxHeight="-Infinity" prefHeight="1.0" prefWidth="200.0" styleClass="linear-color" HBox.hgrow="ALWAYS" />
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="selected-button-container">
+               <image>
+                  <Image url="@../img/settings.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="selected-button-container">
+               <image>
+                  <Image url="@../img/logout.png" />
+               </image>
+            </ImageView>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="290.0" styleClass="container" stylesheets="@../css/mainMenu.css" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <children>
+            <HBox alignment="BOTTOM_LEFT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="BOTTOM_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="49.0" fitWidth="50.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../img/user.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <Label fx:id="userIdentity" prefHeight="43.0" prefWidth="148.0" styleClass="text-black" text="Jhon Doe" textFill="WHITE">
+                     <font>
+                        <Font name="Calisto MT" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="2.0" prefWidth="292.0" styleClass="linear-color" />
+            <VBox prefHeight="710.0" prefWidth="290.0" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="button-container-mouse-moved" stylesheets="@../css/mainMenu.css">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/email.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="43.0" prefWidth="152.0" text="Email generator" textFill="WHITE">
+                           <font>
+                              <Font name="Calisto MT" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="button-container-mouse-moved" stylesheets="@../css/mainMenu.css">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/pass.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="43.0" prefWidth="155.0" text="Password generator" textFill="WHITE">
+                           <font>
+                              <Font name="Calisto MT" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="20.0" styleClass="button-container-mouse-moved" stylesheets="@../css/mainMenu.css">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/icons8-bell-100.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="43.0" prefWidth="155.0" text="Notifications" textFill="WHITE">
+                           <font>
+                              <Font name="Calisto MT" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
