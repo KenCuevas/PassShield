@@ -24,7 +24,7 @@
 
 .line-button {
     -fx-background-color: transparent; /* Fondo transparente */
-    -fx-text-fill: #0072cc; /* Color del texto */
+    -fx-text-fill: #ffffff; /* Color del texto */
     -fx-font-size: 14px;
     -fx-padding: 5 10 5 10; /* Espacio alrededor del texto (arriba, derecha, abajo, izquierda) */
     -fx-border-color: white; /* Borde inferior blanco al pasar el mouse sobre el botón */

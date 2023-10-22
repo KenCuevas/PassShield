@@ -66,9 +66,13 @@ public class JDBCPostgreSQLConnection {
             if (resultSet.next()) {
                 // Se encontró un usuario con el correo electrónico proporcionado
                 String storedPasswordHash = resultSet.getString("password");
-
                 if (BCrypt.checkpw(password, storedPasswordHash)) {
+                    System.out.println("entro en if");
                     // Las contraseñas coinciden
+                    loggedIn = true;
+                }
+                else if (password.equals(storedPasswordHash)){
+                    System.out.println("entro en if else");
                     loggedIn = true;
                 }
             }
@@ -95,5 +99,11 @@ public class JDBCPostgreSQLConnection {
     }
     public static String hashPassword(String plainPassword) {
         return BCrypt.hashpw(plainPassword, BCrypt.gensalt());
+    }
+
+    public static void main(String[] args) throws SQLException {
+        JDBCPostgreSQLConnection connection = new JDBCPostgreSQLConnection();
+        connection.login("administrador01", "admin01");
+        //connection.insertUser("administrator", "administrador01", "administrador01", "admin01");
     }
 }

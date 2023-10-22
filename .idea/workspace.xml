@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -27,6 +28,22 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/css/login.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/css/mainMenu.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/bloqueado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/email-temp-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/help-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/icons8-bell-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/icons8-help-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/logout-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/mail-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/notification-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/pass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/password-generator-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/settings-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/user-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/img/user.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/views/login-view.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/views/main-menu.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/kencuevas/savepassword/views/register-user.fxml" afterDir="false" />
@@ -77,6 +94,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -134,7 +152,8 @@
       <workItem from="1697328017783" duration="4597000" />
       <workItem from="1697334863056" duration="2818000" />
       <workItem from="1697358891430" duration="1860000" />
-      <workItem from="1697897920848" duration="1002000" />
+      <workItem from="1697897920848" duration="7858000" />
+      <workItem from="1697923424356" duration="2328000" />
     </task>
     <servers />
   </component>

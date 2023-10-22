@@ -1,60 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kencuevas.savepassword.controller.RegisterUserController">
-    <left>
-        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-            <children>
-                <ImageView fitHeight="233.0" fitWidth="236.0" layoutX="14.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../img/bloqueado.png" />
-                    </image>
-                </ImageView>
-            </children>
-        </AnchorPane>
-    </left>
-    <right>
-        <AnchorPane prefHeight="500.0" prefWidth="494.0" style="-fx-underline: true; -fx-text-fill: blue; -fx-background-color: #9C2B27;" BorderPane.alignment="CENTER">
-            <children>
-                <Label alignment="CENTER" layoutX="199.0" layoutY="70.0" prefHeight="28.0" prefWidth="96.0" text="Sign up" textAlignment="CENTER" textFill="WHITE">
-                    <font>
-                        <Font size="20.0" />
-                    </font>
-                </Label>
-                <TextField fx:id="firstnameField" alignment="CENTER" layoutX="14.0" layoutY="153.0" prefHeight="36.0" prefWidth="217.0" promptText="firstname">
-                    <font>
-                        <Font size="15.0" />
-                    </font>
-                </TextField>
-                <Button fx:id="registerBTN" alignment="CENTER" layoutX="202.0" layoutY="340.0" mnemonicParsing="false" onAction="#register" prefHeight="34.0" prefWidth="91.0" styleClass="button-17" stylesheets="@../css/register.css" text="Register">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="1078.0" styleClass="registerForm" stylesheets="@../css/register.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kencuevas.savepassword.controller.RegisterUserController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="950.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="PassShield" textFill="WHITE">
                <font>
-                  <Font size="15.0" />
-               </font></Button>
-            <TextField fx:id="lastnameField" alignment="CENTER" layoutX="263.0" layoutY="153.0" prefHeight="36.0" prefWidth="217.0" promptText="lastname">
-               <font>
-                  <Font size="15.0" />
+                  <Font name="Calisto MT" size="64.0" />
                </font>
-            </TextField>
-            <TextField fx:id="emailField" alignment="CENTER" layoutX="14.0" layoutY="250.0" prefHeight="36.0" prefWidth="217.0" promptText="email">
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <GridPane alignment="CENTER" hgap="75.0" vgap="75.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <padding>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </padding>
+         <children>
+            <TextField fx:id="firstnameField" alignment="CENTER" promptText="Jane" styleClass="line-button" stylesheets="@../css/register.css" />
+            <TextField fx:id="lastnameField" alignment="CENTER" promptText="Doe" styleClass="line-button" stylesheets="@../css/register.css" GridPane.columnIndex="1" />
+            <TextField fx:id="emailField" alignment="CENTER" promptText="janedoe@hotmail.com" styleClass="line-button" stylesheets="@../css/register.css" GridPane.rowIndex="1" />
+            <PasswordField fx:id="passwordField" alignment="CENTER" promptText="************" styleClass="line-button" stylesheets="@../css/register.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="60.0" left="60.0" right="60.0" top="60.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="108.0" prefWidth="1078.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="registerBTN" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="46.0" prefWidth="292.0" styleClass="curved-button" stylesheets="@../css/register.css" text="Register in the system" textAlignment="CENTER">
                <font>
-                  <Font size="15.0" />
+                  <Font name="Calisto MT" size="36.0" />
                </font>
-            </TextField>
-            <PasswordField fx:id="passwordField" alignment="CENTER" layoutX="263.0" layoutY="250.0" prefHeight="36.0" prefWidth="217.0" promptText="Password">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </PasswordField>
-            </children>
-        </AnchorPane>
-    </right>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
 </BorderPane>

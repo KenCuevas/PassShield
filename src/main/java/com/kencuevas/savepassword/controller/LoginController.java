@@ -37,7 +37,7 @@ public class LoginController {
 
     @FXML
     void initialize() {
-        registerBTN.setOnAction(this::handleRegisterButtonClick);
+        //registerBTN.setOnAction(this::handleRegisterButtonClick);
         loginbtn.setOnAction(event -> {
             String email = emailField.getText();
             String password = passwordField.getText();
